@@ -1,0 +1,23 @@
+Parse successfully !
+Expression : (!p||q)&&(p&&r->p),p=1,q=0,r=0
+The layer number of parsing is 5
+The value of expression is 0 ...
+
+Parse successfully !
+Expression : (q->r)&&(p->p),p=1,q=1,r=0
+The layer number of parsing is 3
+The value of expression is 0 ...
+
+Expression : (p||q)&&!r!p
+Parse Error : Negation connective !
+Error in parsing ...
+
+Input : The %d line is not formatted correctly !
+Your input : !r||(p->q->!r),p=1     q=1     r=1
+Expect : expression,p=?,q=?,r=?
+
+Parse successfully !
+Expression : !((p<->r)&&!q||r)&&(!r||(p->q->!r)),p=0,q=1,r=1
+The layer number of parsing is 11
+The value of expression is 0 ...
+
